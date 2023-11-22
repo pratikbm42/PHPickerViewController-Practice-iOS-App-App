@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		049F88F62B0BACEF000FD87E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F88F52B0BACEF000FD87E /* AppDelegate.swift */; };
+		049F88F82B0BACEF000FD87E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F88F72B0BACEF000FD87E /* SceneDelegate.swift */; };
+		049F88FA2B0BACEF000FD87E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F88F92B0BACEF000FD87E /* ViewController.swift */; };
+		049F88FD2B0BACEF000FD87E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049F88FB2B0BACEF000FD87E /* Main.storyboard */; };
+		049F88FF2B0BACF2000FD87E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049F88FE2B0BACF2000FD87E /* Assets.xcassets */; };
+		049F89022B0BACF2000FD87E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049F89002B0BACF2000FD87E /* LaunchScreen.storyboard */; };
+		049F890D2B0BACF2000FD87E /* PHPickerControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F890C2B0BACF2000FD87E /* PHPickerControllerTests.swift */; };
+		049F89172B0BACF2000FD87E /* PHPickerControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F89162B0BACF2000FD87E /* PHPickerControllerUITests.swift */; };
+		049F89192B0BACF2000FD87E /* PHPickerControllerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F89182B0BACF2000FD87E /* PHPickerControllerUITestsLaunchTests.swift */; };
+		049F89262B0BB1B8000FD87E /* PhotosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F89252B0BB1B8000FD87E /* PhotosCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		049F89092B0BACF2000FD87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 049F88EA2B0BACEF000FD87E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 049F88F12B0BACEF000FD87E;
+			remoteInfo = PHPickerController;
+		};
+		049F89132B0BACF2000FD87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 049F88EA2B0BACEF000FD87E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 049F88F12B0BACEF000FD87E;
+			remoteInfo = PHPickerController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		049F88F22B0BACEF000FD87E /* PHPickerController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PHPickerController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		049F88F52B0BACEF000FD87E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		049F88F72B0BACEF000FD87E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		049F88F92B0BACEF000FD87E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		049F88FC2B0BACEF000FD87E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		049F88FE2B0BACF2000FD87E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		049F89012B0BACF2000FD87E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		049F89032B0BACF2000FD87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049F89082B0BACF2000FD87E /* PHPickerControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PHPickerControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		049F890C2B0BACF2000FD87E /* PHPickerControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHPickerControllerTests.swift; sourceTree = "<group>"; };
+		049F89122B0BACF2000FD87E /* PHPickerControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PHPickerControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		049F89162B0BACF2000FD87E /* PHPickerControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHPickerControllerUITests.swift; sourceTree = "<group>"; };
+		049F89182B0BACF2000FD87E /* PHPickerControllerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHPickerControllerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		049F89252B0BB1B8000FD87E /* PhotosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		049F88EF2B0BACEF000FD87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049F89052B0BACF2000FD87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049F890F2B0BACF2000FD87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		049F88E92B0BACEF000FD87E = {
+			isa = PBXGroup;
+			children = (
+				049F88F42B0BACEF000FD87E /* PHPickerController */,
+				049F890B2B0BACF2000FD87E /* PHPickerControllerTests */,
+				049F89152B0BACF2000FD87E /* PHPickerControllerUITests */,
+				049F88F32B0BACEF000FD87E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		049F88F32B0BACEF000FD87E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				049F88F22B0BACEF000FD87E /* PHPickerController.app */,
+				049F89082B0BACF2000FD87E /* PHPickerControllerTests.xctest */,
+				049F89122B0BACF2000FD87E /* PHPickerControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		049F88F42B0BACEF000FD87E /* PHPickerController */ = {
+			isa = PBXGroup;
+			children = (
+				049F88F52B0BACEF000FD87E /* AppDelegate.swift */,
+				049F88F72B0BACEF000FD87E /* SceneDelegate.swift */,
+				049F88F92B0BACEF000FD87E /* ViewController.swift */,
+				049F88FB2B0BACEF000FD87E /* Main.storyboard */,
+				049F88FE2B0BACF2000FD87E /* Assets.xcassets */,
+				049F89002B0BACF2000FD87E /* LaunchScreen.storyboard */,
+				049F89032B0BACF2000FD87E /* Info.plist */,
+				049F89252B0BB1B8000FD87E /* PhotosCell.swift */,
+			);
+			path = PHPickerController;
+			sourceTree = "<group>";
+		};
+		049F890B2B0BACF2000FD87E /* PHPickerControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				049F890C2B0BACF2000FD87E /* PHPickerControllerTests.swift */,
+			);
+			path = PHPickerControllerTests;
+			sourceTree = "<group>";
+		};
+		049F89152B0BACF2000FD87E /* PHPickerControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				049F89162B0BACF2000FD87E /* PHPickerControllerUITests.swift */,
+				049F89182B0BACF2000FD87E /* PHPickerControllerUITestsLaunchTests.swift */,
+			);
+			path = PHPickerControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		049F88F12B0BACEF000FD87E /* PHPickerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049F891C2B0BACF2000FD87E /* Build configuration list for PBXNativeTarget "PHPickerController" */;
+			buildPhases = (
+				049F88EE2B0BACEF000FD87E /* Sources */,
+				049F88EF2B0BACEF000FD87E /* Frameworks */,
+				049F88F02B0BACEF000FD87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PHPickerController;
+			productName = PHPickerController;
+			productReference = 049F88F22B0BACEF000FD87E /* PHPickerController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		049F89072B0BACF2000FD87E /* PHPickerControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049F891F2B0BACF2000FD87E /* Build configuration list for PBXNativeTarget "PHPickerControllerTests" */;
+			buildPhases = (
+				049F89042B0BACF2000FD87E /* Sources */,
+				049F89052B0BACF2000FD87E /* Frameworks */,
+				049F89062B0BACF2000FD87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				049F890A2B0BACF2000FD87E /* PBXTargetDependency */,
+			);
+			name = PHPickerControllerTests;
+			productName = PHPickerControllerTests;
+			productReference = 049F89082B0BACF2000FD87E /* PHPickerControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		049F89112B0BACF2000FD87E /* PHPickerControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049F89222B0BACF2000FD87E /* Build configuration list for PBXNativeTarget "PHPickerControllerUITests" */;
+			buildPhases = (
+				049F890E2B0BACF2000FD87E /* Sources */,
+				049F890F2B0BACF2000FD87E /* Frameworks */,
+				049F89102B0BACF2000FD87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				049F89142B0BACF2000FD87E /* PBXTargetDependency */,
+			);
+			name = PHPickerControllerUITests;
+			productName = PHPickerControllerUITests;
+			productReference = 049F89122B0BACF2000FD87E /* PHPickerControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		049F88EA2B0BACEF000FD87E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					049F88F12B0BACEF000FD87E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					049F89072B0BACF2000FD87E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 049F88F12B0BACEF000FD87E;
+					};
+					049F89112B0BACF2000FD87E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 049F88F12B0BACEF000FD87E;
+					};
+				};
+			};
+			buildConfigurationList = 049F88ED2B0BACEF000FD87E /* Build configuration list for PBXProject "PHPickerController" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 049F88E92B0BACEF000FD87E;
+			productRefGroup = 049F88F32B0BACEF000FD87E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				049F88F12B0BACEF000FD87E /* PHPickerController */,
+				049F89072B0BACF2000FD87E /* PHPickerControllerTests */,
+				049F89112B0BACF2000FD87E /* PHPickerControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		049F88F02B0BACEF000FD87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049F89022B0BACF2000FD87E /* LaunchScreen.storyboard in Resources */,
+				049F88FF2B0BACF2000FD87E /* Assets.xcassets in Resources */,
+				049F88FD2B0BACEF000FD87E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049F89062B0BACF2000FD87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049F89102B0BACF2000FD87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		049F88EE2B0BACEF000FD87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049F89262B0BB1B8000FD87E /* PhotosCell.swift in Sources */,
+				049F88FA2B0BACEF000FD87E /* ViewController.swift in Sources */,
+				049F88F62B0BACEF000FD87E /* AppDelegate.swift in Sources */,
+				049F88F82B0BACEF000FD87E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049F89042B0BACF2000FD87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049F890D2B0BACF2000FD87E /* PHPickerControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049F890E2B0BACF2000FD87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049F89192B0BACF2000FD87E /* PHPickerControllerUITestsLaunchTests.swift in Sources */,
+				049F89172B0BACF2000FD87E /* PHPickerControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		049F890A2B0BACF2000FD87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 049F88F12B0BACEF000FD87E /* PHPickerController */;
+			targetProxy = 049F89092B0BACF2000FD87E /* PBXContainerItemProxy */;
+		};
+		049F89142B0BACF2000FD87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 049F88F12B0BACEF000FD87E /* PHPickerController */;
+			targetProxy = 049F89132B0BACF2000FD87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		049F88FB2B0BACEF000FD87E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				049F88FC2B0BACEF000FD87E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		049F89002B0BACF2000FD87E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				049F89012B0BACF2000FD87E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		049F891A2B0BACF2000FD87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		049F891B2B0BACF2000FD87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		049F891D2B0BACF2000FD87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PHPickerController/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.razorpay.PHPickerController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		049F891E2B0BACF2000FD87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PHPickerController/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.razorpay.PHPickerController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		049F89202B0BACF2000FD87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.razorpay.PHPickerControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PHPickerController.app/PHPickerController";
+			};
+			name = Debug;
+		};
+		049F89212B0BACF2000FD87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.razorpay.PHPickerControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PHPickerController.app/PHPickerController";
+			};
+			name = Release;
+		};
+		049F89232B0BACF2000FD87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.razorpay.PHPickerControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PHPickerController;
+			};
+			name = Debug;
+		};
+		049F89242B0BACF2000FD87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.razorpay.PHPickerControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PHPickerController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		049F88ED2B0BACEF000FD87E /* Build configuration list for PBXProject "PHPickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049F891A2B0BACF2000FD87E /* Debug */,
+				049F891B2B0BACF2000FD87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049F891C2B0BACF2000FD87E /* Build configuration list for PBXNativeTarget "PHPickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049F891D2B0BACF2000FD87E /* Debug */,
+				049F891E2B0BACF2000FD87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049F891F2B0BACF2000FD87E /* Build configuration list for PBXNativeTarget "PHPickerControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049F89202B0BACF2000FD87E /* Debug */,
+				049F89212B0BACF2000FD87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049F89222B0BACF2000FD87E /* Build configuration list for PBXNativeTarget "PHPickerControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049F89232B0BACF2000FD87E /* Debug */,
+				049F89242B0BACF2000FD87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 049F88EA2B0BACEF000FD87E /* Project object */;
+}
